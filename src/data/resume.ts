@@ -1,4 +1,8 @@
 import { SiAngular, SiExpress, SiIonic, SiLaravel, SiMongodb, SiMysql, SiNestjs, SiNextdotjs, SiNodedotjs, SiPhp, SiReact, SiTypescript } from "react-icons/si";
+import KarirhubImg from '../assets/karirhub.png';
+import KsaImg from '../assets/kawansejati.png';
+import SiapkerjaImg from '../assets/siapkerja.png';
+import SkillhubImg from '../assets/skillhub.png';
 
 export const SITE = {
   email: 'rickymurdana@gmail.com',
@@ -103,25 +107,25 @@ export const EXPERIENCE = [
 export const PROJECTS = [
   {
     project: 'KSA Website',
-    image: './src/assets/kawansejati.png',
+    image: KsaImg,
     link: 'https://kawansejatiadhitama.com',
     desc: 'A website for oil and gas company to manage their operations.'
   },
   {
     project: 'Skillhub',
-    image: './src/assets/skillhub.png',
+    image: SkillhubImg,
     link: 'https://skillhub.kemnaker.go.id/',
     desc: 'A platform for skill development and training.'
   },
   {
     project: 'Karirhub',
-    image: './src/assets/karirhub.png',
+    image: KarirhubImg,
     link: 'https://karirhub.kemnaker.go.id/',
     desc: 'A job portal for career development and job searching.'
   },
   {
     project: 'SIAPKerja',
-    image: './src/assets/siapkerja.png',
+    image: SiapkerjaImg,
     link: 'https://siapkerja.kemnaker.go.id/',
     desc: 'A platform for job seekers to find suitable job opportunities.'
   },
