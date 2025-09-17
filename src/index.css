@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html, body, #root { height: 100%; }
+body { @apply bg-white text-slate-800 antialiased; }
+
+/* small utility for card */
+.card { @apply bg-white rounded-2xl shadow-md p-6; }
+
