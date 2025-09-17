@@ -1,4 +1,4 @@
-import { SiAngular, SiExpress, SiIonic, SiLaravel, SiMongodb, SiMysql, SiNestjs, SiNextdotjs, SiNodedotjs, SiPhp, SiReact, SiTailwindcss, SiTypescript } from "react-icons/si";
+import { SiAngular, SiExpress, SiIonic, SiLaravel, SiMongodb, SiMysql, SiNestjs, SiNextdotjs, SiNodedotjs, SiPhp, SiReact, SiTypescript } from "react-icons/si";
 
 export const SITE = {
   email: 'rickymurdana@gmail.com',

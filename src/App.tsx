@@ -32,7 +32,7 @@ function App() {
         addToast("Message sent successfully!", "success");
       },
       (error) => {
-        addToast("Message failed to send. Please try again.", "error");
+        addToast(`${error.text} Message failed to send. Please try again.`, "error");
       }
     );
   }
